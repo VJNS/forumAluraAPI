@@ -1,5 +1,7 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
  * 
  * Classe que representa a moldura de uma Conta
@@ -9,12 +11,12 @@ package br.com.bytebank.banco.modelo;
  *
  */
 
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta>, Serializable {
 	
 	protected double saldo;
 	private int agencia;
 	private int numero;
-	private Cliente titular = new Cliente();
+	private transient Cliente titular = new Cliente();
 	private static int total;
 
 /**
@@ -111,7 +113,27 @@ public abstract class Conta {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Número: " + this.numero + ", Agência: " + this.agencia;
-	}	
-	
+		return "NÃºmero: " + this.numero + ", AgÃªncia: " + this.agencia;
+	}
+
+	@Override
+    public boolean equals(Object ref) {
+
+		Conta conta = (Conta) ref;
+
+		if(this.agencia != conta.agencia) {
+			return false;
+		}
+
+		if(this.numero != conta.agencia) {
+			return false;
+		}
+
+		return true;
+	}
+
+	@Override
+	public int compareTo(Conta outra) {
+		return Double.compare(this.saldo, outra.saldo);
+	}
 }

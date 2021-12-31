@@ -1,0 +1,15 @@
+2021-12-06 20:22:55,299 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-06 20:23:47,535 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\pom.xml.
+2021-12-06 20:23:52,420 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/main/java
+2021-12-06 20:23:52,421 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/test/java
+2021-12-06 20:23:56,413 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 16 sec
+2021-12-06 20:23:58,427 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-06 20:23:58,427 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\src\main\resources
+2021-12-06 20:23:58,427 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\src\main\resources
+2021-12-06 20:23:58,430 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-06 20:23:58,431 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\src\test\resources
+2021-12-06 20:25:40,765 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-06 20:25:40,766 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\src\main\resources
+2021-12-06 20:25:40,766 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\src\main\resources
+2021-12-06 20:25:40,769 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-12-06 20:25:40,770 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\valte\OneDrive\Documents\aluraProjetoForum\forum\target\classes\META-INF\maven\br.com.alura\forum\src\test\resources

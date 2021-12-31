@@ -4,13 +4,16 @@ import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
-public class Teste {
+public class TesteArrayList {
 
     public static void main(String[] args) {
 
-        ArrayList<Conta> lista = new ArrayList();
+//        List<Conta> lista = new Vector<>();
+//        ArrayList<Conta> lista = new ArrayList();
+        List<Conta> lista = new Vector<>();
 
         Conta cc = new ContaCorrente(22,11);
         lista.add(cc);
